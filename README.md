@@ -5,38 +5,38 @@ These are the elements outlined in John Gruber’s original design document. All
 
 | Element | Markdown Syntax |
 | ------- | --------------- |
-| Heading |	\# H1 <br/> \#\# H2 <br/> \#\#\# H3|
-|Bold|	\*\*bold text\*\*|
-|Italic|	\*italicized text\*|
-|Bold Italic| \*\*\*Bold Italic\*\*\* |
-|Blockquote|	\> blockquote|
-|Ordered List|	1. First item <br/> 2. Second item <br/> 3. Third item|
-|Unordered List|	- First item <br/> - Second item <br/> - Third item|
-|Code|	\`code\`|
+|[Headings](#headings)|	\# H1 <br/> \#\# H2 <br/> \#\#\# H3|
+|[Bold](#bold)|	\*\*bold text\*\*|
+|[Italic](#italic)|	\*italicized text\*|
+|[Bold Italic](#bold-italic)| \*\*\*Bold Italic\*\*\* |
+|[Blockquote](#blockquotes)|	\> blockquote|
+|[Ordered List](#ordered-list)|	1. First item <br/> 2. Second item <br/> 3. Third item|
+|[Unordered List](#unordered-list)|	- First item <br/> - Second item <br/> - Third item|
+|[Code](#code)|	\`code\`|
 |Horizontal Rule|	--- |
-|Link|	\[title](https://www.example.com)|
-|Image|	\![alt text](image.jpg)|
+|[Link](#link)|	\[title](https://www.example.com)|
+|[Image](#images)|	\![alt text](image.jpg)|
 
 # Extended Syntax
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 <table>
   <tr><th>Element</th> <th>Markdown Syntax</th></tr>
-  <tr><td>Table</td> <td>| Syntax | Description |<br/>| ----------- | ----------- |<br/>| Header | Title |<br/>| Paragraph | Text |</td></tr>
-  <tr><td>Fenced Code Block</td> <td> ```<br/>{<br/>"firstName": "John",<br/>"lastName": "Smith",<br/>"age": 25<br/>}<br/>```</td></tr> 
-  <tr><td>Footnote</td> <td>Here's a sentence with a footnote. [^1]<br/><br/>[^1]: This is the footnote.</td></tr> 
-  <tr><td>Heading ID</td> <td>### My Great Heading {#custom-id}</td></tr> 
-  <tr><td>Definition List</td> <td>term<br/>: definition</td></tr> 
-  <tr><td>Strikethrough</td> <td>~~The world is flat.~~</td></tr> 
-  <tr><td>Task List</td> <td>- [x] Write the press release<br/>- [ ] Update the website<br/>- [ ] Contact the media</td></tr> 
-  <tr><td>Emoji</td> <td>That is so funny! :joy:</td></tr> 
+  <tr><td><a href="#tables">Table</a></td> <td>| Syntax | Description |<br/>| ----------- | ----------- |<br/>| Header | Title |<br/>| Paragraph | Text |</td></tr>
+  <tr><td><a href="#fenced-code-block">Fenced Code Block</a></td> <td> ```<br/>{<br/>"firstName": "John",<br/>"lastName": "Smith",<br/>"age": 25<br/>}<br/>```</td></tr> 
+  <tr><td><a href="#footnote">Footnote</a></td> <td>Here's a sentence with a footnote. [^1]<br/><br/>[^1]: This is the footnote.</td></tr> 
+  <tr><td><a href="#heading-id">Heading ID</a></td> <td>### My Great Heading {#custom-id}</td></tr> 
+  <tr><td><a href="#definition-list">Definition List</a></td> <td>term<br/>: definition</td></tr> 
+  <tr><td><a href="#strikethrough">Strikethrough</a></td> <td>~~The world is flat.~~</td></tr> 
+  <tr><td><a href="#task-list">Task List</a></td> <td>- [x] Write the press release<br/>- [ ] Update the website<br/>- [ ] Contact the media</td></tr> 
+  <tr><td><a href="#emoji">Emoji</a></td> <td>That is so funny! :joy:</td></tr> 
 </table>
 
 ---
 
-# Headings
+# Headings 
 
-# Heading 1
+# Heading 1   
 `# Heading 1`
 
 ## Heading 2
@@ -173,6 +173,7 @@ Some code here
 ---
 
 # Tables
+<!-- <h1 id="Tables">Tables</h1> -->
 
 ```
 | Column1 | Column2 | Column3 |
@@ -203,6 +204,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     Add as many paragraphs as you like.
     
 ```
+
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^1]: This is the first footnote.
@@ -215,3 +217,4 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.
 ```
+
