@@ -189,6 +189,46 @@ Some code here
 
 ---
 
+# $\mathnormal{Latex}$ $\mathnormal{fonts}$
+
+`\mathnormal` $\mathnormal{Math}$ $\mathnormal{normal}$
+
+`\mathup` $\mathup{Upright}$ $\mathup{serif}$
+
+`\mathbfup` $\mathbfup{Bold}$ $\mathbfup{upright}$ $\mathbfup{serif}$
+
+`\mathit` $\mathit{Italic}$ $\mathit{serif}$
+
+`\mathbfit` $\mathbfit{Bold}$ $\mathbfit{italic}$ $\mathbfit{serif}$
+
+`\mathsfup` $\mathsfup{Upright}$ $\mathsfup{sans-serif}$
+
+`\mathsfit` $\mathsfit{Italic}$ $\mathsfit{sans-serif}$
+
+`\mathbfsfup` $\mathsfit{Bold}$ $\mathsfit{upright}$ $\mathsfit{sans-serif}$
+
+`\mathbfsfit¹` $\mathbfsfit¹{Bold}$ $\mathbfsfit¹{italic}$ $\mathbfsfit¹{sans-serif}$
+
+`\mathtt` $\mathtt{Typewriter}$
+
+`\mathbb` $\mathbb{Blackboard}$ $\mathbb{bold}$
+
+<!--`\mathbbit` $\mathbbit{Blackboard}$ $\mathbbit{bold}$ $\mathbbit{italic}$ -->
+
+`\mathscr` $\mathscr{Script}$
+
+`\mathbfscr` $\mathbfscr{Bold}$ $\mathbfscr{script²}$
+
+`\mathcal` $\mathcal{Calligraphic}$
+
+`\mathbfcal` $\mathbfcal{Bold}$ $\mathbfcal{calligraphic²}$
+
+`\mathfrak` $\mathbfcal{Fraktur}$
+
+`\mathbffrak` $\mathbffrak{Bold}$ $\mathbffrak{Fraktur²}$    
+
+---
+
 # Footnote
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -215,6 +255,6 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     `{ my code }`
 
-    Add as many paragraphs as you like.
-```
-
+    Add as many paragraphs as you like.   
+    
+```   
