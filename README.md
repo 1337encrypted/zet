@@ -191,41 +191,41 @@ Some code here
 
 # $\mathnormal{Latex}$ $\mathnormal{fonts}$
 
-`\mathnormal` $\mathnormal{Math}$ $\mathnormal{normal}$
+`$\mathnormal{*}$` $\mathnormal{Math}$ $\mathnormal{normal}$
 
-`\mathup` $\mathup{Upright}$ $\mathup{serif}$
+`$\mathup{*}$` $\mathup{Upright}$ $\mathup{serif}$
 
-`\mathbfup` $\mathbfup{Bold}$ $\mathbfup{upright}$ $\mathbfup{serif}$
+`$\mathbfup{*}$` $\mathbfup{Bold}$ $\mathbfup{upright}$ $\mathbfup{serif}$
 
-`\mathit` $\mathit{Italic}$ $\mathit{serif}$
+`$\mathit{*}$` $\mathit{Italic}$ $\mathit{serif}$
 
-`\mathbfit` $\mathbfit{Bold}$ $\mathbfit{italic}$ $\mathbfit{serif}$
+`$\mathbfit{*}$` $\mathbfit{Bold}$ $\mathbfit{italic}$ $\mathbfit{serif}$
 
-`\mathsfup` $\mathsfup{Upright}$ $\mathsfup{sans-serif}$
+`$\mathsfup{*}$` $\mathsfup{Upright}$ $\mathsfup{sans-serif}$
 
-`\mathsfit` $\mathsfit{Italic}$ $\mathsfit{sans-serif}$
+`$\mathsfit{*}$` $\mathsfit{Italic}$ $\mathsfit{sans-serif}$
 
-`\mathbfsfup` $\mathsfit{Bold}$ $\mathsfit{upright}$ $\mathsfit{sans-serif}$
+`$\mathbfsfup{*}$` $\mathsfit{Bold}$ $\mathsfit{upright}$ $\mathsfit{sans-serif}$
 
-`\mathbfsfit¹` $\mathbfsfit¹{Bold}$ $\mathbfsfit¹{italic}$ $\mathbfsfit¹{sans-serif}$
+`$\mathbfsfit¹{*}$` $\mathbfsfit¹{Bold}$ $\mathbfsfit¹{italic}$ $\mathbfsfit¹{sans-serif}$
 
-`\mathtt` $\mathtt{Typewriter}$
+`$\mathtt{*}$` $\mathtt{Typewriter}$
 
-`\mathbb` $\mathbb{Blackboard}$ $\mathbb{bold}$
+`$\mathbb{*}$` $\mathbb{Blackboard}$ $\mathbb{bold}$
 
-<!--`\mathbbit` $\mathbbit{Blackboard}$ $\mathbbit{bold}$ $\mathbbit{italic}$ -->
+<!--`$\mathbbit{*}$` $\mathbbit{Blackboard}$ $\mathbbit{bold}$ $\mathbbit{italic}$ -->
 
-`\mathscr` $\mathscr{Script}$
+`$\mathscr{*}$` $\mathscr{Script}$
 
-`\mathbfscr` $\mathbfscr{Bold}$ $\mathbfscr{script²}$
+`$\mathbfscr{*}$` $\mathbfscr{Bold}$ $\mathbfscr{script²}$
 
-`\mathcal` $\mathcal{Calligraphic}$
+`$\mathcal{*}$` $\mathcal{Calligraphic}$
 
-`\mathbfcal` $\mathbfcal{Bold}$ $\mathbfcal{calligraphic²}$
+`$\mathbfcal{*}$` $\mathbfcal{Bold}$ $\mathbfcal{calligraphic²}$
 
-`\mathfrak` $\mathbfcal{Fraktur}$
+`$\mathfrak{*}$` $\mathbfcal{Fraktur}$
 
-`\mathbffrak` $\mathbffrak{Bold}$ $\mathbffrak{Fraktur²}$    
+`$\mathbffrak{*}$` $\mathbffrak{Bold}$ $\mathbffrak{Fraktur²}$    
 
 ---
 
