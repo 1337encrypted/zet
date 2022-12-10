@@ -199,3 +199,5 @@ The following creates a symbolic link:
 - Symbolic links were created to overcome the two disadvantages of hard links.
 1. Hard links cannot span physical devices.
 2. Hard links cannot reference directories, only files.
+
+20221112234110[^1]

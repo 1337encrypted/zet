@@ -33,3 +33,5 @@
 | \*[[:lower:]123] | Any file ending with a lowercase letter or the numerals "1", "2" or "3" |
 
 `#wildcards` `#patternmatching` `#charaterclass`
+
+20221112190400 [^1]
