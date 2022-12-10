@@ -34,4 +34,4 @@
 
 `#wildcards` `#patternmatching` `#charaterclass`
 
-20221112190400 [^1]
+[^1]: 20221112190400
