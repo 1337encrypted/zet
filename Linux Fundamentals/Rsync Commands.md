@@ -60,6 +60,4 @@
 
 `rsync -ahPe 'ssh -p 22' user@ipaddr:</src> <dest/>`
 
-[^1]: 20221115141350
-
-
+#uid 20221115141350

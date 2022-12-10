@@ -200,4 +200,4 @@ The following creates a symbolic link:
 1. Hard links cannot span physical devices.
 2. Hard links cannot reference directories, only files.
 
-[^1]: 20221112234110
+#uid 20221112234110
