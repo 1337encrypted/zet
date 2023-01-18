@@ -40,9 +40,9 @@
 
 #### To delete all the empty directories after copy the files in the destination directory use `find src/ -type d -empty -delete`
 
-<h1 align="center">$\mathtt{Rsync}$ $\mathtt{Remote}$ $\mathtt{To}$ $\mathtt{Local}$</h1>
+<h1 align="center">$\mathtt{Laptop}$ $\mathtt{to}$ $\mathtt{Server}$</h1>
 
-## To copy file Between source of local machine to destination of remote machine
+## Transfer files from your laptop to the server
 
 `rsync -ahP <src/> user@ipaddr:</dest>`
 
@@ -50,9 +50,7 @@
 
 `rsync -ahPz <src/> user@ipaddr:</dest>`
 
-<h1 align="center">$\mathtt{Rsync}$ $\mathtt{Local}$ $\mathtt{To}$ $\mathtt{Remote}$</h1>
-
-## To copy file Between destination of remote machine to source of local machine
+<h1 align="center">$\mathtt{Server}$ $\mathtt{to}$ $\mathtt{Laptop}$</h1>
 
 `rsync -ahP user@ipaddr:</src> <dest/>`
 
