@@ -134,4 +134,4 @@ The rm command is used to remove (delete) files and directories
 
 - Deletes a empty directory
 
-uuid
+#uid 20230528084810
