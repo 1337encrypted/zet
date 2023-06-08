@@ -13,7 +13,7 @@ These are the elements outlined in John Gruber’s original design document. All
 |[Ordered List](#ordered-list)|	1. First item <br/> 2. Second item <br/> 3. Third item|
 |[Unordered List](#unordered-list)|	- First item <br/> - Second item <br/> - Third item|
 |[Code](#code)|	\`code\`|
-|Horizontal Rule|	--- |
+|[Horizontal Rule](#horizontal-rule)|	--- |
 |[Link](#link)|	\[title](https://www.example.com)|
 |[Image](#images)|	\![alt text](image.jpg)|
 
@@ -27,7 +27,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
   <tr><td><a href="#footnote">Footnote</a></td> <td>Here's a sentence with a footnote. [^1]<br/><br/>[^1]: This is the footnote.</td></tr> 
   <tr><td><a href="#heading-id">Heading ID</a></td> <td>### My Great Heading {#custom-id}</td></tr> 
   <tr><td><a href="#definition-list">Definition List</a></td> <td>term<br/>: definition</td></tr> 
-  <tr><td><a href="#strikethrough">Strikethrough</a></td> <td>~~The world is flat.~~</td></tr> 
+  <tr><td><a href="#strikethrough">Strikethrough</a></td> <td>&lt;s&gt;The world is flat.&lt;/s&gt;</td></tr> 
   <tr><td><a href="#task-list">Task List</a></td> <td>- [x] Write the press release<br/>- [ ] Update the website<br/>- [ ] Contact the media</td></tr> 
   <tr><td><a href="#emoji">Emoji</a></td> <td>That is so funny! :joy:</td></tr> 
 </table>
@@ -160,6 +160,16 @@ Some code here
 
 ---
 
+# horizontal rule
+
+`---`
+
+---
+
+`***`
+
+***
+
 # Link
 
 [Github profile](https://github.com/1337encrypted)    
@@ -228,6 +238,14 @@ Some code here
 `$\mathbffrak{*}$` $\mathbffrak{Bold}$ $\mathbffrak{Fraktur²}$    
 
 ---
+
+# strikethrough
+
+<s>This is a strikethough.</s>
+
+`<s>This is a strikethough.</s>`
+
+`<strike>This is a strikethough.</strike>`
 
 # Footnote
 
