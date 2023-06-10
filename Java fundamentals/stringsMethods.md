@@ -24,4 +24,4 @@ Here's the given data formatted in Markdown:
 | `replaceFirst("Hello", "hi")` | Replaces the first occurrence of a substring that matches the given regular expression with the given replacement     | `String`    |
 | `replaceAll("Hello", "hi")`   | Replaces each substring of this string that matches the given regular expression with the given replacement           | `String`    |
 | `split()`                     | Splits a string into an array of substrings                                                                           | `String[]`  |
-| `startsWith()`                | Checks
+| `startsWith()`                | Checks                                                                                                                |             |
