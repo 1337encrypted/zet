@@ -247,6 +247,15 @@ Some code here
 
 `<strike>This is a strikethough.</strike>`
 
+# Task List
+
+- [x] #739
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+` - [x] Marked`   
+
+` - [ ] Unmarked`     
+
 # Footnote
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
