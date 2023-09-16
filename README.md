@@ -22,8 +22,14 @@ These are the elements outlined in John Gruber’s original design document. All
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 <table>
   <tr><th>Element</th> <th>Markdown Syntax</th></tr>
-  <tr><td><a href="#tables">Table</a></td> <td>| Syntax | Description |<br/>| ----------- | ----------- |<br/>| Header | Title |<br/>| Paragraph | Text |</td></tr>
-  <tr><td><a href="#fenced-code-block">Fenced Code Block</a></td> <td> ```<br/>{<br/>"firstName": "John",<br/>"lastName": "Smith",<br/>"age": 25<br/>}<br/>```</td></tr> 
+  <tr><td><a href="#tables">Table</a></td> 
+    <td>| Syntax | Description |<br/>| ----------- | ----------- |<br/>| Header | Title |<br/>| Paragraph | Text |</td></tr>
+
+  <tr><td><a href="#Latex">Latex fonts</a></td> 
+    <td> $Math$ </td></tr>
+
+  <tr><td><a href="#fenced-code-block">Fenced Code Block</a></td> 
+    <td> ```<br/>{<br/>"firstName": "John",<br/>"lastName": "Smith",<br/>"age": 25<br/>}<br/>```</td></tr> 
   <tr><td><a href="#footnote">Footnote</a></td> <td>Here's a sentence with a footnote. [^1]<br/><br/>[^1]: This is the footnote.</td></tr> 
   <tr><td><a href="#heading-id">Heading ID</a></td> <td>### My Great Heading {#custom-id}</td></tr> 
   <tr><td><a href="#definition-list">Definition List</a></td> <td>term<br/>: definition</td></tr> 
