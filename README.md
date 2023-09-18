@@ -245,6 +245,95 @@ Some code here
 
 ---
 
+# $\text{miscellaneous}$
+
+`$\text{*}$` $\text{Text}$
+
+**Fractions:**
+
+Fraction: `$\frac{3}{4}$`: $\frac{3}{4}$  
+Binomial Coefficient: `${n \choose k}$`: ${n \choose k}$  
+
+**Mathematical Symbols:**
+
+Square Root: `$\sqrt{x}$`: $\sqrt{x}$  
+Cubed Root: `$\sqrt[3]{x}$`: $\sqrt[3]{x}$  
+Infinity: `$\infty$`: $\infty$  
+Infinity (Limit): `$\lim_{x\to\infty}$`: $\lim_{x\to\infty}$  
+Summation: `$\sum_{i=1}^{n}$`: $\sum_{i=1}^{n}$ 
+
+## $\text{Symbols}$
+
+**Greek Letters:**
+
+Alpha: `$\alpha$`: $\alpha$  
+Beta: `$\beta$`: $\beta$  
+Gamma: `$\gamma$`: $\gamma$  
+Delta: `$\delta$`: $\delta$  
+Omega: `$\omega$`: $\omega$  
+
+**Mathematical Operators:**
+
+Multiplication: `$\times$`: $\times$  
+Division: `$\div$`: $\div$  
+Plus-Minus: `$\pm$`: $\pm$  
+Infinity: `$\infty$`: $\infty$  
+Partial Differential: `$\partial$`: $\partial$  
+
+**Arrows:**
+
+Right Arrow: `$\rightarrow$`: $\rightarrow$  
+Left Arrow: `$\leftarrow$`: $\leftarrow$  
+Up Arrow: `$\uparrow$`: $\uparrow$  
+Down Arrow: `$\downarrow$`: $\downarrow$  
+Left-Right Arrow: `$\leftrightarrow$`: $\leftrightarrow$  
+
+**Set Notation:**
+
+Subset: `$\subset$`: $\subset$  
+Superset: `$\supset$`: $\supset$  
+Empty Set: `$\emptyset$`: $\emptyset$  
+Element of: `$\in$`: $\in$  
+
+**Logic Symbols:**
+
+Negation: `$\neg$`: $\neg$  
+Logical OR: `$\lor$`: $\lor$  
+Logical AND: `$\land$`: $\land$  
+Implies: `$\implies$`: $\implies$  
+If and Only If: `$\iff$`: $\iff$  
+
+**Geometry:**
+
+Triangle: `$\triangle$`: $\triangle$  
+Square: `$\square$`: $\square$  
+Circle: `$\circ$`: $\circ$  
+Angle: `$\angle$`: $\angle$  
+Perpendicular: `$\perp$`: $\perp$  
+
+**Currency Symbols:**
+
+Dollar Sign: `$$`: $  
+Euro: `€`: €  
+Yen: `¥`: ¥  
+Pound Sterling: `£`: £  
+Russian Ruble: `₽`: ₽  
+
+**Dots:**
+
+Ellipsis (Three Dots): `$\ldots$`: $\ldots$  
+Centered Ellipsis (Three Dots): `$\cdots$`: $\cdots$  
+Vertical Ellipsis: `$\vdots$`: $\vdots$  
+Diagonal Ellipsis: `$\ddots$`: $\ddots$  
+
+**Other Miscellaneous Symbols:**
+
+Degree Symbol: `$^\circ$`: $^\circ$  
+Section Symbol: `§`: §  
+Copyright Symbol: `©`: ©  
+Registered Trademark Symbol: `®`: ®  
+Trademark Symbol: `™`: ™ 
+
 # strikethrough
 
 <s>This is a strikethough.</s>
