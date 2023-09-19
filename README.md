@@ -278,7 +278,8 @@ Multiplication: `$\times$`: $\times$
 Division: `$\div$`: $\div$  
 Plus-Minus: `$\pm$`: $\pm$  
 Infinity: `$\infty$`: $\infty$  
-Partial Differential: `$\partial$`: $\partial$  
+Partial Differential: `$\partial$`: $\partial$   
+Propotionality: `$\propto$`: $\propto$  
 
 **Arrows:**
 
