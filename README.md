@@ -205,7 +205,7 @@ Some code here
 
 ---
 
-# $\mathnormal{Latex}$ $\mathnormal{fonts}$
+# Latex fonts
 
 `$\mathnormal{*}$` $\mathnormal{Math}$ $\mathnormal{normal}$
 
@@ -223,7 +223,7 @@ Some code here
 
 `$\mathbfsfup{*}$` $\mathsfit{Bold}$ $\mathsfit{upright}$ $\mathsfit{sans-serif}$
 
-`$\mathbfsfit¹{*}$` $\mathbfsfit¹{Bold}$ $\mathbfsfit¹{italic}$ $\mathbfsfit¹{sans-serif}$
+`$\mathbfsfit{*}$` $\mathbfsfit{Bold}$ $\mathbfsfit{italic}$ $\mathbfsfit{sans-serif}$
 
 `$\mathtt{*}$` $\mathtt{Typewriter}$
 
@@ -245,7 +245,7 @@ Some code here
 
 ---
 
-# $\text{miscellaneous}$
+# miscellaneous
 
 `$\text{*}$` $\text{Text}$
 
@@ -262,7 +262,7 @@ Infinity: `$\infty$`: $\infty$
 Infinity (Limit): `$\lim_{x\to\infty}$`: $\lim_{x\to\infty}$  
 Summation: `$\sum_{i=1}^{n}$`: $\sum_{i=1}^{n}$ 
 
-## $\text{Symbols}$
+## Symbols
 
 **Greek Letters:**
 
