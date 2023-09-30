@@ -1,4 +1,6 @@
-<h1 align="center">$\mathtt{Rsync}$ $\mathtt{Local}$ $\mathtt{Machine}$</h1>
+<!-- <p align="center"> $\mathbfup{Rsync}$ $\mathbfup{Local}$ $\mathbfup{Machine}$</p> -->
+
+<h1 align="center">Rsync Local Machine </h1>
 
 ## To copy file Between folders
 
@@ -40,7 +42,9 @@
 
 #### To delete all the empty directories after copy the files in the destination directory use `find src/ -type d -empty -delete`
 
-<h1 align="center">$\mathtt{Laptop}$ $\mathtt{to}$ $\mathtt{Server}$</h1>
+<!-- <p align="center">$\mathbfup{Laptop}$ $\mathbfup{to}$ $\mathbfup{Server}$</p> -->
+
+<h1 align="center">Laptop to server</h1>
 
 ## Transfer files from your laptop to the server
 
@@ -50,7 +54,9 @@
 
 `rsync -ahPz <src/> user@ipaddr:</dest>`
 
-<h1 align="center">$\mathtt{Server}$ $\mathtt{to}$ $\mathtt{Laptop}$</h1>
+<!-- <p align="center">$\mathbfup{Server}$ $\mathbfup{to}$ $\mathbfup{Laptop}$</p> -->
+
+<h1 align="center">Server to Laptop</h1> 
 
 `rsync -ahP user@ipaddr:</src> <dest/>`
 
