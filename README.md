@@ -25,7 +25,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
   <tr><td><a href="#tables">Table</a></td> 
     <td>| Syntax | Description |<br/>| ----------- | ----------- |<br/>| Header | Title |<br/>| Paragraph | Text |</td></tr>
 
-  <tr><td><a href="#Latex">Latex fonts</a></td> 
+  <tr><td><a href="#Latex-fonts">Latex fonts</a></td> 
     <td> $Math$ </td></tr>
 
   <tr><td><a href="#fenced-code-block">Fenced Code Block</a></td> 
@@ -245,7 +245,7 @@ Some code here
 
 ---
 
-# miscellaneous
+## Miscellaneous
 
 `$\text{*}$` $\text{Text}$
 
