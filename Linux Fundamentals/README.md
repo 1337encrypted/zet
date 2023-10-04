@@ -1,4 +1,4 @@
-<h1 align=center>$Index$</h1>
+<h1 align=center>Index</h1>
 
 <h2>Navigation commands</h2>
 
