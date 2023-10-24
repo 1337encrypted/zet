@@ -1,4 +1,6 @@
-# $$Wildcards$$
+#!/usr/bin/glow
+
+# Wildcards
 
 | Wildcard | Meaning |
 | :---: | :--- |
@@ -8,7 +10,7 @@
 | [!characters] | Matches any character that is not a member of the set characters |
 | [[:class:]] | Matches any character that is a member of the specified class |
 
-<h1 align=center> $Character$ $class$ </h1>
+<h1 align=center> Character class </h1>
 
 | Character Class | Meaning |
 | :---: | :--- |
@@ -18,7 +20,7 @@
 | [:lower:] | Matches any lowercase letter |
 | [:upper:] | Matches any uppercase letter |
 
-<h2 align=center> $Wildcard$ $Examples$ </h2>
+<h2 align=center> Wildcard Examples </h2>
 
 | Pattern | Matches |
 | :--- | :--- |

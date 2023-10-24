@@ -1,3 +1,5 @@
+#!/usr/bin/glow
+
 # Podman commands
 
 ## podman init for new installation

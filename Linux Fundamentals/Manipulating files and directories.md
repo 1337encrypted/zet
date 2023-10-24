@@ -1,4 +1,6 @@
-<h1 align=center>$Manipulating$ $Files$ $and$ $Directories$</h1>
+#!/usr/bin/glow
+
+<h1 align=center>Manipulating Files and Directories</h1>
 
 - cp - copies files and directories
 - ln - Creates Hard links and Symbolic links

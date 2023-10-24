@@ -1,4 +1,7 @@
-<h1 align=center> $Linux$ $directories$ </h1>
+
+#!/usr/bin/glow
+
+# Linux directories
 
 | Directory | Comments |
 | :--- | :--- |

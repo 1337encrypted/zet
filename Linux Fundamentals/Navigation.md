@@ -1,3 +1,5 @@
+#!/usr/bin/glow
+
 <h1 align=center>$Navigation$</h1>
 
 - cd – Change directory.

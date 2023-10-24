@@ -1,3 +1,5 @@
+#!/usr/bin/glow
+
 <!-- <p align="center"> $\mathbfup{Rsync}$ $\mathbfup{Local}$ $\mathbfup{Machine}$</p> -->
 
 <h1 align="center">Rsync Local Machine </h1>
