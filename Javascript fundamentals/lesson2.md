@@ -2,10 +2,11 @@
 
 ## Operator precedence
 
-| Operator precedence | priority |
-| :--- | :--- |
-| *  / | Left to right |
-| +  - | Left to right |
+| priority | Operator | Precedence |
+| :--- | :--- | :--- |
+| 1 | (...) | Left to right |
+| 2| *  / | Left to right |
+| 3 | +  - | Left to right |
 
 ## Math.round() function
 
