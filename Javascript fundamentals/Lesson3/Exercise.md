@@ -21,3 +21,23 @@
 
 ### 3f. Display the text from 3e in a popup using alert...);
 ```alert(`Total cost: $${5+3}`)```
+
+### 3g. You order 1 coffee ($5.99) and 1 bagel ($2.95). Using math, calculate the total cost, and using concatenation, create the text: 'Total cost: $ ' (hint: calculate in cents to avoid inaccuracies)
+
+`'Total cost: $' + (599 + 295)/100`
+
+### 3h. Do the same thing as 3g, but use a template string and interpolation.
+
+`Total cost: $${(599+295)/100}`
+
+### 3i. Display the text from 3h in a popup.
+
+```alert (`Total cost: $${(599+295)/100}`)```
+
+### 3j. Using a multi-line string, create the text from 3h and add a line of text underneath: 'Thank you, come again!'. Display both lines in a popup.
+
+alert(`Total cost: $${(599+295)/100}\nThank you, come again!`)
+
+## Challenge Exercises Setup: in the Amazon project, update the cart to 2 basketballs ($20.95 each) with $4.99 shipping, and 2 t-shirts ($7.99 each) with $4.99 shipping.
+<img width="531" alt="image" src="https://github.com/1337encrypted/zet/assets/46808309/da9f59a5-86fb-4ac9-aea6-509deb69a2d0">
+
