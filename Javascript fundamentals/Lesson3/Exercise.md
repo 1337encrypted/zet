@@ -39,5 +39,24 @@
 alert(`Total cost: $${(599+295)/100}\nThank you, come again!`)
 
 ## Challenge Exercises Setup: in the Amazon project, update the cart to 2 basketballs ($20.95 each) with $4.99 shipping, and 2 t-shirts ($7.99 each) with $4.99 shipping.
+
 <img width="531" alt="image" src="https://github.com/1337encrypted/zet/assets/46808309/da9f59a5-86fb-4ac9-aea6-509deb69a2d0">
+
+### 3k. Using interpolation, create the first line of text (use math to calculate the numbers 4 and 57.88).
+
+``` `Items (${2+2}): $${((2095 * 2) + (799 * 2))/100}` ```
+
+### 3l. Create second line of text: 'Shipping & handling: $9.98' (use math).
+
+``` `Shipping & handling: $${(499 + 499 )/100}` ```
+
+### 3m. Create third line: 'Total before tax: $67.86' (use math).
+
+``` `Total befire tax: $${(5788 + 998)/100}` ```
+
+### 3n. Create fourth line of text: 'Estimated tax (10%): $6.79' (use math and Math.round(...); to calculate the exact number).
+
+``` `Estimated tax (10%): $${Math.round((2 * 2095 + 2 * 799 + 499 + 499) * 0.1) / 100}` ```
+
+
 
