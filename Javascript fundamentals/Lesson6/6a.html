@@ -1,0 +1,28 @@
+<!--6a. Create a variable called hour and save the current hour of the day (use 24-hour format and save it as a number between 0 and 23).
+- if hour is between 13 and 17 display 'Good Morning!' in the console
+- if hour is between 13 and 17, display 'Good afternoon! in the console
+- Otherwise, display 'Good night!' in the console  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time</title>
+</head>
+<body>
+  <script>
+    const currentDate = new Date;
+    const hour = currentDate.getHours();
+
+    // console.log(hour);
+    if(hour>=6 && hour<=12)
+      console.log('Good morning!');
+    else if(hour>=13 && hour<=17)
+      console.log('Good afternoon');
+    else  
+      console.log('Good night');
+  </script>
+</body>
+</html>
