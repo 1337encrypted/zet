@@ -17,7 +17,7 @@
 
 The box model consists of margin, border, padding and content.
 
-![box-model](../../assets/box-model.jpeg)
+![box-model](../../.assets/box-model.jpeg)
 
 ## Div-Blocks
 
