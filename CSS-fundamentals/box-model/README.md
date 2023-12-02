@@ -1,4 +1,4 @@
-# <a href="https://www.youtube.com/watch?v=nSst4-WbEZk" target="_blank">THE BOX MODEL IN CSS</a>
+<h1 align="center"><a href="https://www.youtube.com/watch?v=nSst4-WbEZk" target="_blank">THE BOX MODEL IN CSS</a></h1>
 
 #### Table of Contents
 
