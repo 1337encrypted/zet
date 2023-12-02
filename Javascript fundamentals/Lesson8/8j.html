@@ -1,0 +1,40 @@
+<!--
+  8j. Create a score object {wins:0, losses:0}, update the score each time after playing, and display the score in the console.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+</head>
+<body>
+  <button onclick="
+    // guess = 'heads';
+    playGame('heads');  
+  ">Heads</button>
+  <button onclick="
+    // guess = 'tails';
+    playGame('tails');
+  ">Tails</button>
+  <script>
+    let score = {
+      wins: 0,
+      losses: 0
+    };
+
+    function playGame(guess) {
+      const flip = Math.random();
+      result = flip < 0.5 ? 'heads' : 'tails';
+      
+      if (guess === result)
+        score.wins++;
+      else
+        score.losses++;
+
+      console.log(score);
+    }
+  </script>
+</body>
+</html>

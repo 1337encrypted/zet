@@ -1,0 +1,28 @@
+<!--
+  7d. Create a function 'convertToTemprature(degrees, unit)' that takes a number and unit ('C' or 'F'), and converts it into the other unit.
+  - convertTemprature(25,'C') => '77F'
+  - convertTemprature(86,'F') => '30C'
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TempratureSense</title>
+</head>
+<body>
+  <script>
+    function convertToTemprature(degrees, unit){
+      if(unit === 'F')
+        return (degrees - 32) * 5/9 + 'C';
+      else if(unit === 'C')
+        return (degrees * 9 /5) + 32 + 'F';
+      else
+        return 'Not a valid unit'
+    } 
+    console.log(convertToTemprature(25,'C'));
+    console.log(convertToTemprature(86,'F'));
+  </script>
+</body>
+</html>

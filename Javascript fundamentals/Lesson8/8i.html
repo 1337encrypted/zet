@@ -1,0 +1,35 @@
+<!--
+  8i. improve on 6j to be like rock paper scissors game.
+  - Create 2 buttons to play the game
+  - When clicking heads play the game with guess = 'heads'
+  - When clicking tails play the game with guess = 'tails'
+  -Create a function 'playGame(guess) to reuse the code.'
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+</head>
+<body>
+  <button onclick="
+    // guess = 'heads';
+    playGame('heads');  
+  ">Heads</button>
+  <button onclick="
+    // guess = 'tails';
+    playGame('tails');
+  ">Tails</button>
+  <script>
+    // let guess = '';
+    
+    function playGame(guess) {
+      const flip = Math.random();
+      result = flip < 0.5 ? 'heads' : 'tails';
+      guess === result ? console.log('You win!') : console.log('You lose!');
+    }
+  </script>
+</body>
+</html>

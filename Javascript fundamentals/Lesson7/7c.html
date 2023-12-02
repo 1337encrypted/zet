@@ -1,0 +1,24 @@
+<!--
+  7b. Try calling greet() without a name (it will display "Hello undefined!"). Modify the function so that if 'name' is undefined. it will display 'Hi there!' instead.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>functions</title>
+</head>
+<body>
+  <script>
+    function greet(name){
+      name ? console.log(`Hello ${name}`) : console.log(`Hi there!`);
+    }
+
+    greet('1337');
+    greet('snoop');
+    greet('dogg');
+    greet();
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!--
+  8k. Use localStorage to save and load the score each time after playing.
+  (hint: you'll need to se JSON.stringify() to convery the score objct to a string.)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+</head>
+<body>
+  <button onclick="
+    playGame('heads');  
+  ">Heads</button>
+  <button onclick="
+    playGame('tails');
+  ">Tails</button>
+  <button onclick="
+    score.wins = score.losses = 0;
+    localStorage.removeItem('score');
+  ">reset</button>
+  <script>
+    let score = JSON.parse(localStorage.getItem('score')) || {
+      wins: 0,
+      losses: 0
+    };
+
+    function playGame(guess) {
+      const flip = Math.random();
+      result = flip < 0.5 ? 'heads' : 'tails';
+      
+      if (guess === result)
+        score.wins++;
+      else
+        score.losses++;
+
+      console.log(score);
+
+      localStorage.setItem('score', JSON.stringify(score));
+    }
+  </script>
+</body>
+</html>
