@@ -27,12 +27,14 @@
 
 - justify-content is used to align content on the main axis
 
-1. flex-start
-2. flex-end
-3. center
-4. space-between
-5. space-around
-6. space-evenly
+- [flex-start](#flex-start)
+- [flex-end](#flex-end)
+- [center](#center)
+- [space-between](#space-between)
+- [space-around](#space-around)
+- [space-evenly](#space-evenly)
+
+---
 
 ### flex-start
 
