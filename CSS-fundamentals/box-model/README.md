@@ -117,7 +117,7 @@ The box model consists of margin, border, padding and content.
   }
 ```
 <!--![div-element-margin](div-element-margin.png)-->
-(https://github.com/1337encrypted/zet/assets/46808309/0bec43b0-8176-4c40-a7fa-7b45a2186346)
+![div-element-margin](https://github.com/1337encrypted/zet/assets/46808309/0bec43b0-8176-4c40-a7fa-7b45a2186346)
 
 <!--![div-element-margin-1](div-element-margin-1.png)![div-element-margin]-->
 ![div-element-margin-1](https://github.com/1337encrypted/zet/assets/46808309/48db240b-2e6c-4c56-be4f-051295f338da)
