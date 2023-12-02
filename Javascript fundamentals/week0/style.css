@@ -1,4 +1,70 @@
-.container {
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  /* background-color: yellow; */
+  display: flex;
+  justify-content:space-between;
+}
+
+/* .container {
   display: flex;
   justify-content: space-between;
+  background-color: aqua;
+} */
+
+.navbar-logo{
+  margin-left: 100px;
+  /* background-color: skyblue; */
+  padding-top: 20px;
+}
+
+.zerodha-logo{
+  width: 100px;
+}
+
+.navbar-items{
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: skyblue; */
+}
+
+.zerodha-landing{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.zerodha-landing img{
+  width: 800px;
+}
+
+.after-section{
+  height: 200px;
+  text-align: center;
+}
+
+.after-section h1{
+  margin: 10px;
+}
+
+.after-section p{
+  margin: 10px;
+}
+
+.after-section div{
+  padding: 10px 30px;
+  margin-right: 420px;
+  margin-left: 420px;
+  background-color: blue;
+  border-radius: 5px;
+
 }
