@@ -12,7 +12,7 @@ These are the elements outlined in John Gruber’s original design document. All
 |[Blockquote](#blockquotes)|	`> blockquote`|
 |[Ordered List](#ordered-list)|	`1. First item` <br/> `2. Second item` <br/> `3. Third item`|
 |[Unordered List](#unordered-list)|	`- First item` <br/> `- Second item` <br/> `- Third item`|
-|[Code](#code)|	`\`code\`|
+|[Code](#code)|	\`code\`|
 |[Horizontal Rule](#horizontal-rule)|	`---` |
 |[Link](#link)|	`[title](https://www.example.com)`|
 |[Image](#images)|	`![alt text](image.jpg)`|
