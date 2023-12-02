@@ -24,7 +24,9 @@ The box model consists of margin, border, padding and content.
 
 - Div elemnts are block length elements and contain the entire width of the view port
 
-![div-elements](div-elements.png)
+<!--![div-elements](div-elements.png)-->
+![div-elements](https://github.com/1337encrypted/zet/assets/46808309/29c508ce-269d-440e-975a-ddde0e6d7e3e)
+
 
 - The size of the div block consists of the **border**, **padding** and the **content** inside the div
 - Only the margin is space outside of the div
@@ -42,7 +44,9 @@ The box model consists of margin, border, padding and content.
     height: 100px;
   }
 ```
-![div-element-width-height-1](div-element-width-height-1.png)
+<!--![div-element-width-height-1](div-element-width-height-1.png)-->
+![div-element-width-height-1](https://github.com/1337encrypted/zet/assets/46808309/195819c8-1075-4e9a-9938-cc7e67978b51)
+
 
 ### Padding
 
@@ -63,7 +67,9 @@ The box model consists of margin, border, padding and content.
   }
 ```
 
-![div-elements-padding](div-elements-padding.png)
+<!--![div-elements-padding](div-elements-padding.png)-->
+![div-elements-padding](https://github.com/1337encrypted/zet/assets/46808309/b9508bc0-4814-4bf5-92d9-fe870f21c1d2)
+
 
 ### Border
 
@@ -83,11 +89,13 @@ The box model consists of margin, border, padding and content.
   }
 ```
 
-![div-elements-border](div-elements-border.png)
+<!--![div-elements-border](div-elements-border.png)-->
+![div-elements-border](https://github.com/1337encrypted/zet/assets/46808309/28a3ff82-5774-45c7-b409-fbe96bcd0a60)
 
 - There are 10 different border styles to use from
 
-![div-elements-border-1](div-elements-border-1.png)
+<!--![div-elements-border-1](div-elements-border-1.png)-->
+![div-elements-border-1](https://github.com/1337encrypted/zet/assets/46808309/d04376ed-923e-494f-84f1-f859c0b12f05)
 
 ### Margin
 
@@ -108,9 +116,12 @@ The box model consists of margin, border, padding and content.
     margin: 20px 40px 100px 500px;
   }
 ```
-![div-element-margin](div-element-margin.png)
+<!--![div-element-margin](div-element-margin.png)-->
+(https://github.com/1337encrypted/zet/assets/46808309/0bec43b0-8176-4c40-a7fa-7b45a2186346)
 
-![div-element-margin-1](div-element-margin-1.png)
+<!--![div-element-margin-1](div-element-margin-1.png)![div-element-margin]-->
+![div-element-margin-1](https://github.com/1337encrypted/zet/assets/46808309/48db240b-2e6c-4c56-be4f-051295f338da)
+
 
 ### Css-Preset-Margin-Padding
 
@@ -124,7 +135,8 @@ The box model consists of margin, border, padding and content.
   }
 ```
 
-![div-element-CSS-preset](div-element-css-preset.png)
+<!--![div-element-CSS-preset](div-element-css-preset.png)-->
+![div-element-css-preset](https://github.com/1337encrypted/zet/assets/46808309/7aba8016-8079-441f-9ed7-eab64a340d23)
 
 ### Box-Sizing
 
@@ -147,7 +159,8 @@ The box model consists of margin, border, padding and content.
   }
 ```
 
-![div-element-content-box](div-element-content-box.png)
+<!--![div-element-content-box](div-element-content-box.png)-->
+![div-element-content-box](https://github.com/1337encrypted/zet/assets/46808309/af008889-06b3-4195-9dd8-81d81860ee9d)
 
 #### border-box
 
@@ -164,7 +177,8 @@ The box model consists of margin, border, padding and content.
   }
 ```
 
-![div-element-border-box](div-element-border-box.png)
+<!--![div-element-border-box](div-element-border-box.png)-->
+![div-element-border-box](https://github.com/1337encrypted/zet/assets/46808309/50db92af-9758-4ea3-ab9a-1750efcbc1da)
 
 we can calculate this by       
 width = 258+16+16+5+5 = 300px     
