@@ -19,6 +19,11 @@
 
 ## flex-direction
 
+1. [flex-direction:row](#flex-direction-row)
+2. [flex-direction:column](#flex-direction-column)
+
+### flex-direction-row
+
 - By default the flex direction is horizontal
 ```
 .container {
@@ -27,7 +32,9 @@
 }
 ```
 
-<img width="300" alt="flex-direction-row" src="https://github.com/1337encrypted/zet/assets/46808309/de2e1c50-60c5-4a9e-bf09-e5ece237bf49">
+<img width="300" alt="flex-direction-row" src="https://github.com/1337encrypted/zet/assets/46808309/4b068ee4-e866-43ce-a0a0-c652e4b61809">
+
+### flex-direction-column
 
 ```
 .container {
@@ -36,8 +43,7 @@
 }
 ```
 
- <img width="300" alt="flex-direction-column" src="https://github.com/1337encrypted/zet/assets/46808309/16dc334e-4f0a-4179-9027-30b2f598f57d">
-
+<img width="300" alt="flex-direction-column" src="https://github.com/1337encrypted/zet/assets/46808309/316c672a-1a9a-45ad-9af3-9a3dc7820b2c">
 
 ## justify-content
 
@@ -143,7 +149,7 @@
 }
 ```
 
-![](align-items-flex-start.png)
+<img width="300" alt="align-items-flex-start" src="https://github.com/1337encrypted/zet/assets/46808309/5c88337f-c92b-4e01-a525-c6221e8a5522">
 
 ### flex-end
 
@@ -156,7 +162,7 @@
 }
 ```
 
-![](align-items-flex-end.png)
+<img width="300" alt="align-items-flex-end" src="https://github.com/1337encrypted/zet/assets/46808309/e280b1a6-3c05-4c4a-9a9c-f853c5111222">
 
 ### center
 
@@ -169,7 +175,7 @@
 }
 ```
 
-![](align-items-center.png)
+<img width="300" alt="align-items-center" src="https://github.com/1337encrypted/zet/assets/46808309/a24f33f8-ae72-4d69-8b27-ac0bb164916f">
 
 ### baseline
 
@@ -188,7 +194,7 @@
 }
 ```
 
-![](align-items-baseline.png)
+<img width="300" alt="align-items-baseline" src="https://github.com/1337encrypted/zet/assets/46808309/757f551d-02eb-45a9-8ed8-566d04e14317">
 
 ## flex-wrap
 
@@ -199,7 +205,7 @@
 
 - When the number of items increase inside a div they will squeeze and cram to fit inside the row
 
-![](flex-wrap.png)
+<img width="300" alt="flex-wrap" src="https://github.com/1337encrypted/zet/assets/46808309/fd1a433b-720b-4fc7-8d8a-048fca7f0436">
 
 ### wrap
 
@@ -215,7 +221,7 @@
 }
 ```
 
-![](flex-wrap-wrap.png)
+<img width="300" alt="flex-wrap-wrap" src="https://github.com/1337encrypted/zet/assets/46808309/b68a52ff-b203-4364-9a68-8150e8937717">
 
 ## align-content
 
@@ -240,7 +246,7 @@
 }
 ```
 
-![](align-content-flex-start.png)
+<img width="300" alt="align-content-flex-start" src="https://github.com/1337encrypted/zet/assets/46808309/21cdd567-c73b-4af3-becd-68109140c609">
 
 ### flex-end
 
@@ -255,7 +261,7 @@
 }
 ```
 
-![](align-content-flex-end.png)
+<img width="300" alt="align-content-flex-end" src="https://github.com/1337encrypted/zet/assets/46808309/e0b3ed9f-307d-4e3d-aa80-85bb050f761a">
 
 ### center
 
@@ -270,22 +276,7 @@
 }
 ```
 
-![](align-content-center.png)
-
-### center
-
-```
-.container {
-  display: flex;
-/* flex-direction:row; */
-/* justify-content: space-evenly; */
-/* align-items: baseline; */
-  flex-wrap: wrap;
-  align-content: center;
-}
-```
-
-![](align-content-center.png)
+<img width="300" alt="align-content-center" src="https://github.com/1337encrypted/zet/assets/46808309/0ac12834-a26e-4e27-a4df-0c52893a1f30">
 
 ### space-around
 
@@ -300,7 +291,7 @@
 }
 ```
 
-![](align-content-space-around.png)
+<img width="300" alt="align-content-space-around" src="https://github.com/1337encrypted/zet/assets/46808309/6422d184-0b16-4211-9934-15961ab272f6">
 
 ### space-between
 
@@ -315,7 +306,7 @@
 }
 ```
 
-![](align-content-space-between.png)
+<img width="300" alt="align-content-space-between" src="https://github.com/1337encrypted/zet/assets/46808309/5c0a8dee-6b81-4ad0-9632-9916053ab290">
 
 ### space-evenly
 
@@ -330,7 +321,7 @@
 }
 ```
 
-![](align-content-space-evenly.png)
+<img width="300" alt="align-content-space-evenly" src="https://github.com/1337encrypted/zet/assets/46808309/d3711d39-2928-4658-a6dc-3741318d9fb0">
 
 ## gap
 
@@ -348,7 +339,7 @@
 }
 ```
 
-![](gap.png)
+<img width="300" alt="gap" src="https://github.com/1337encrypted/zet/assets/46808309/25829348-0b00-411d-b0ab-61b302c28e69">
 
 ## flex-grow
 
@@ -373,7 +364,7 @@
 }
 ```
 
-![](flex-grow.png)
+<img width="300" alt="flex-grow-1" src="https://github.com/1337encrypted/zet/assets/46808309/03bbda9d-9c8e-40fe-9e8a-0e3f48ae6307">
 
 #### Example 2
 
@@ -400,7 +391,7 @@
 }
 ```
 
-![](flex-grow-2.png)
+<img width="300" alt="flex-grow-2" src="https://github.com/1337encrypted/zet/assets/46808309/698458fb-d7d4-4c11-8a48-1be64ac4969f">
 
 ## flex-shrink
 
@@ -425,7 +416,7 @@
 }
 ```
 
-![](flex-shrink.mov)
+https://github.com/1337encrypted/zet/assets/46808309/068588b5-ec15-4ea8-a6a4-e64ebb3902ff
 
 ## flex-basis
 
@@ -449,11 +440,11 @@
 }
 ```
 
-![](flex-basis-300px.png)
+<img width="300" alt="flex-basis-300px" src="https://github.com/1337encrypted/zet/assets/46808309/b223679a-fac9-4549-9b9f-2cdc59cbef3a">
 
 - setting `flex-basis: 0 ` will shrink the item to the smallest possible size limit.
 
-![](flex-basis-300px.png)
+<img width="300" alt="flex-basis-0" src="https://github.com/1337encrypted/zet/assets/46808309/7c0db7a4-bb88-47b8-8f66-6c39c2421c77">
 
 ### Shorthand Notation
 
