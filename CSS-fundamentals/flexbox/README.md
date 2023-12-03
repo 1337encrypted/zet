@@ -17,12 +17,14 @@
 8. [flex-basis](#flex-basis) 
 9. [shorthand notation](#shorthand-notation)
 
+---
+
 ## flex-direction
 
-1. [flex-direction:row](#flex-direction-row)
-2. [flex-direction:column](#flex-direction-column)
+- [flex-direction:row](#flex-direction-row)
+- [flex-direction:column](#flex-direction-column)
 
-### flex-direction-row
+### flex-direction:row
 
 - By default the flex direction is horizontal
 ```
@@ -48,16 +50,16 @@
 ## justify-content
 
 - justify-content is used to align content on the main axis
-- [flex-start](#flex-start)
-- [flex-end](#flex-end)
-- [center](#center)
-- [space-between](#space-between)
-- [space-around](#space-around)
-- [space-evenly](#space-evenly)
+- [justify-content:flex-start](#justify-content-flex-start)
+- [justify-content:flex-end](#justify-content-flex-end)
+- [justify-content:center](#justify-content-center)
+- [justify-content:space-between](#justify-content-space-between)
+- [justify-content:space-around](#justify-content-space-around)
+- [justify-content:space-evenly](#justify-content-space-evenly)
 
 ---
 
-### flex-start
+### justify-content-flex-start
 
 ``` 
 .container {
@@ -69,7 +71,7 @@
 
 <img width="300" alt="flex-direction-row" src="https://github.com/1337encrypted/zet/assets/46808309/27577f88-1269-4b9d-b406-dfb50aef10f8">
 
-### flex-end
+### justify-content-flex-end
 
 ``` 
 .container {
@@ -81,7 +83,7 @@
 
 <img width="300" alt="justify-content-flex-end" src="https://github.com/1337encrypted/zet/assets/46808309/7c0cfcc2-c169-44a2-97fc-c3fc1718347e">
 
-### center
+### justify-content-center
 
  ``` 
 .container {
@@ -93,7 +95,7 @@
 
 <img width="300" alt="justify-content-center" src="https://github.com/1337encrypted/zet/assets/46808309/cc3d51d2-048b-4cd1-8746-87fe18f6e8ef">
 
-### space-between
+### justify-content-space-between
 
 ``` 
 .container {
@@ -105,7 +107,7 @@
 
 <img width="300" alt="justify-content-space-between" src="https://github.com/1337encrypted/zet/assets/46808309/84d58244-d4ee-4716-8249-c6a20f28f249">
 
-### space-around
+### justify-content-space-around
 
 ``` 
 .container {
@@ -117,7 +119,7 @@
 
 <img width="300" alt="justify-content-space-around" src="https://github.com/1337encrypted/zet/assets/46808309/8138fe6c-391c-4f1d-9a17-6a0235a004ec">
 
-### space-evenly
+### justify-content-space-evenly
 
 ``` 
 .container {
@@ -131,14 +133,14 @@
 
 ## align-items
 
-- Aligning items on the cross axis
++ Aligning items on the cross axis
 
-- [flex-start](#flex-start)
-- [flex-end](#flex-end)
-- [center](#center)
-- [basline](#basline)
+- [align-items:flex-start](#align-items-flex-start)
+- [align-items:flex-end](#align-items-flex-end)
+- [align-items:center](#align-items-center)
+- [align-items:basline](#align-items-basline)
 
-### flex-start
+### align-items-flex-start
 
 ``` 
 .container {
@@ -151,7 +153,7 @@
 
 <img width="300" alt="align-items-flex-start" src="https://github.com/1337encrypted/zet/assets/46808309/5c88337f-c92b-4e01-a525-c6221e8a5522">
 
-### flex-end
+### align-items-flex-end
 
 ``` 
 .container {
@@ -164,7 +166,7 @@
 
 <img width="300" alt="align-items-flex-end" src="https://github.com/1337encrypted/zet/assets/46808309/e280b1a6-3c05-4c4a-9a9c-f853c5111222">
 
-### center
+### align-items-center
 
 ``` 
 .container {
@@ -177,7 +179,7 @@
 
 <img width="300" alt="align-items-center" src="https://github.com/1337encrypted/zet/assets/46808309/a24f33f8-ae72-4d69-8b27-ac0bb164916f">
 
-### baseline
+### align-items-baseline
 
 - when font of item 1 increases the baselines of all the 3 items are same.
 
@@ -198,16 +200,16 @@
 
 ## flex-wrap
 
-- [nowrap](#flex-wrap)
-- [wrap](#wrap)
+- [flex-wrap:nowrap](#flex-wrap-nowrap)
+- [flex-wrap:wrap](#flex-wrap-wrap)
 
-### nowrap
+### flex-wrap-nowrap
 
 - When the number of items increase inside a div they will squeeze and cram to fit inside the row
 
 <img width="300" alt="flex-wrap" src="https://github.com/1337encrypted/zet/assets/46808309/fd1a433b-720b-4fc7-8d8a-048fca7f0436">
 
-### wrap
+### flex-wrap-wrap
 
 - To solve this we can enable `flex-wrap` its set to `nowrap`.
 
@@ -225,15 +227,17 @@
 
 ## align-content
 
-- [flex-start](#flex-start)
-- [flex-end](#flex-end)
-- [center](#center)
-- [basline](#basline)
+- [align-content:flex-start](#align-content-flex-start)
+- [align-content:flex-end](#align-content-flex-end)
+- [align-content:center](#align-content-center)
+- [align-content:space-around](#align-content-space-around)
+- [align-content:space-between](#align-content-space-between)
+- [align-content:space-evenly](#align-content-space-evenly)
 
-- When `flex-wrap: wrap` is set and items are wrapping a new property is enabled that is `align-content`, 
-- The possible properties are same as `justify-content`.
++ When `flex-wrap: wrap` is set and items are wrapping a new property is enabled that is `align-content`, 
++ The possible properties are same as `justify-content`.
 
-### flex-start
+### align-content-flex-start
 
 ```
 .container {
@@ -248,7 +252,7 @@
 
 <img width="300" alt="align-content-flex-start" src="https://github.com/1337encrypted/zet/assets/46808309/21cdd567-c73b-4af3-becd-68109140c609">
 
-### flex-end
+### align-content-flex-end
 
 ```
 .container {
@@ -263,7 +267,7 @@
 
 <img width="300" alt="align-content-flex-end" src="https://github.com/1337encrypted/zet/assets/46808309/e0b3ed9f-307d-4e3d-aa80-85bb050f761a">
 
-### center
+### align-content-center
 
 ```
 .container {
@@ -278,7 +282,7 @@
 
 <img width="300" alt="align-content-center" src="https://github.com/1337encrypted/zet/assets/46808309/0ac12834-a26e-4e27-a4df-0c52893a1f30">
 
-### space-around
+### align-content-space-around
 
 ```
 .container {
@@ -293,7 +297,7 @@
 
 <img width="300" alt="align-content-space-around" src="https://github.com/1337encrypted/zet/assets/46808309/6422d184-0b16-4211-9934-15961ab272f6">
 
-### space-between
+### align-content-space-between
 
 ```
 .container {
@@ -308,7 +312,7 @@
 
 <img width="300" alt="align-content-space-between" src="https://github.com/1337encrypted/zet/assets/46808309/5c0a8dee-6b81-4ad0-9632-9916053ab290">
 
-### space-evenly
+### align-content-space-evenly
 
 ```
 .container {
