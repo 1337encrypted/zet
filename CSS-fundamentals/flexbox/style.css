@@ -47,7 +47,19 @@ body {
 /* END OF BASE STYLES */
 .container {
   display: flex;
-  flex-direction:row;
-  justify-content:;
+  /* flex-direction:row;            */
+  /* justify-content:space-between; */
+  /* align-items:center;            */
+  /* flex-wrap: wrap;               */
+  /* align-content: flex-start;     */
+  /* gap: 1em;                      */
 }
+
+.item-1{
+  /* flex-grow: 1;    */
+  /* flex-shrink: 5;  */
+  /* flex-basis: 0px; */
+  flex: 1;
+}
+
 
