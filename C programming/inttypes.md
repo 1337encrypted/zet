@@ -1,4 +1,21 @@
-Sure, here's a table in Markdown format listing all the printing and scanning macros defined in `<inttypes.h>`:
+# inttypes.h
+
+## First three characters
+PRI for output format (printf, fwprintf, wprintf, etc.)
+SCN for input format (scanf, fwscanf, etc.)
+
+## Fourth character
+d for decimal formatting
+x for hexadecimal formatting
+o for octal formatting
+u for unsigned int formatting
+i for integer formatting
+
+## Remaining Characters
+N for N bit size assignment to the data type (Eg. 32 for 32-bit size for integer, 16 for 16-bit size for unsigned int and so on)
+PTR for pointer
+MAX for maximum supported bit size
+FAST, whose meaning is not clearly defined and is left to the implementation to decide what is meant by a "fast" integer data type.
 
 ### Printing Macros
 
