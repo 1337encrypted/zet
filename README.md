@@ -37,8 +37,8 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ---
 
-<details> <summary><h1>Headings</h1></summary>
-  
+# Headings
+
 # Heading 1   
 `# Heading 1`
 
@@ -57,26 +57,20 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ###### Heading 6
 `###### Heading 6`
 
-</details>
-
 ---
 
-<details> <summary><h1>Bold</h1></summary>
-  
+# Bold
+
 **bold text**   
 `**bold text**`   
 `__bold text__`    
 
-</details>
-
 ---
 
-<details> <summary><h1>Italic</h1></summary>
-
+# Italic
 *Italic text*   
 `*Italic text*`   
 `_Italic text_`
-</details>
 
 ---
 
