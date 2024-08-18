@@ -3,37 +3,38 @@
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-| Element                             | Markdown Syntax  |
-|-------------------------------------|--------------------------------------------------------------------------------------------|
-| [Headings](#headings)               | `# H1` <br/> `## H2` <br/> `### H3` |
-| [Bold](#bold)                       | `**bold text**` |
-| [Italic](#italic)                   | `*italicized text*` |
-| [Bold Italic](#bold-italic)         | `***Bold Italic***`  |
-| [Blockquote](#blockquotes)          | `> blockquote` |
-| [Alerts](#alerts)                   | `> [!NOTE]` <br/> `> [!TIP]` <br/> `> [!IMPORTANT]` <br/> `> [!WARNING]` <br/> `> [!CAUTION]` |
-| [Ordered List](#ordered-list)       | `1. First item` <br/> `2. Second item` <br/> `3. Third item` |
-| [Unordered List](#unordered-list)   | `- First item` <br/> `- Second item` <br/> `- Third item` |
-| [Code](#code)                       | \`code\` |
-| [Horizontal Rule](#horizontal-rule) | `---` |
-| [Link](#link)                       | `[title](https://www.example.com)` |
-| [Image](#images)                    | `![alt text](image.jpg)` |
+ Element                             | Markdown Syntax
+-------------------------------------|--------------------------------------------------------------------------------------------
+ [Headings](#headings)               | `# H1` <br/> `## H2` <br/> `### H3`
+ [Bold](#bold)                       | `**bold text**`
+ [Italic](#italic)                   | `*italicized text*`
+ [Bold Italic](#bold-italic)         | `***Bold Italic***`
+ [Blockquote](#blockquotes)          | `> blockquote`
+ [Alerts](#alerts)                   | `> [!NOTE]` <br/> `> [!TIP]` <br/> `> [!IMPORTANT]` <br/> `> [!WARNING]` <br/> `> [!CAUTION]`
+ [Ordered List](#ordered-list)       | `1. First item` <br/> `2. Second item` <br/> `3. Third item`
+ [Unordered List](#unordered-list)   | `- First item` <br/> `- Second item` <br/> `- Third item`
+ [Code](#code)                       | \`code\`
+ [Horizontal Rule](#horizontal-rule) | `---`
+ [Link](#link)                       | `[title](https://www.example.com)`
+ [Image](#images)                    | `![alt text](image.jpg)`
 
 # Extended Syntax
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
-| Element                                   | Markdown Syntax |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [Table](#tables)                          | \| Syntax \| Description \|<br>\| ----------- \| ----------- \|<br>\| Header \| Title \|<br>\| Paragraph \| Text \|  |
-| [Collapsed section](#Collapsed-section)   | <details><summary>collapsed sections</summary> You can add text within a collapsed section.</details> |
-| [Latex fonts](#latex-fonts)               | `$Math$` |
-| [Fenced Code Block](#fenced-code-block)   | ```<br>{<br>"firstName": "John",<br>"lastName": "Smith",<br>"age": 25<br>}<br>```|
-| [Footnote](#footnote)                     | `Here's a sentence with a footnote. [^1]`<br><br>`[^1]: This is the footnote.` |
-| [Heading ID](#heading-id)                 | `### My Great Heading {#custom-id}` |
-| [Definition List](#definition-list)       | `term`<br>`: definition` |
-| [Strikethrough](#strikethrough)           | `<s>The world is flat.</s>` |
-| [Task List](#task-list)                   | `- [x] Write the press release`<br>`- [ ] Update the website`<br>`- [ ] Contact the media` |
-| [Emoji](#emoji)                           | `That is so funny! :joy:` |
+Element                                   | Markdown Syntax 
+:--- | :---
+[Table](#tables)                          | \| Syntax \| Description \|<br>\| ----------- \| ----------- \|<br>\| Header \| Title \|<br>\| Paragraph \| Text \|  
+[Collapsed section](#Collapsed-section)   | <details><summary>collapsed sections</summary> You can add text within a collapsed section.</details> 
+[Latex fonts](#latex-fonts)               | `$Math$` 
+[Fenced Code Block](#fenced-code-block)   | ```<br>{<br>"firstName": "John",<br>"lastName": "Smith",<br>"age": 25<br>}<br>```
+[Heading ID](#heading-id)                 | `### My Great Heading {#custom-id}` 
+[Definition List](#definition-list)       | `term`<br>`: definition` 
+[Strikethrough](#strikethrough)           | `<s>The world is flat.</s>` 
+[Task List](#task-list)                   | `- [x] Write the press release`<br>`- [ ] Update the website`<br>`- [ ] Contact the media` 
+[Emoji](#emoji)                           | `That is so funny! :joy:` 
+[Mermaid](#mermaid)                       | ````mermaid <br/> graph TD; <br/> A-->B; <br/> A-->C; <br/> B-->D; <br/> C-->D; <br/> ``` 
+[Footnote](#footnote)                     | `Here's a sentence with a footnote. [^1]`<br><br>`[^1]: This is the footnote.` 
 
 ---
 
@@ -225,23 +226,22 @@ fmt.Println("Hello World!")
 <!-- <h1 id="Tables">Tables</h1> -->
 
 ```
-| Column1 | Column2 | Column3 |
-| :---        |    :----:   |          ---: |
-| Left Justified | Center justified | Right justified |
-
+Column1 | Column2 | Column3
+:--- | :----: | ---:
+Left Justified | Center justified | Right justified
 ```
 
-| Column1 | Column2 | Column3 |
-| :---        |    :----:   |          ---: |
-| Left Justified | Center justified | Right justified |
-|a|b|c|
+Column1 | Column2 | Column3
+:--- | :----: | ---:
+Left Justified | Center justified | Right justified
+a|b|c
 
 ---
 # Collapsed section
 
 <details>
   
-<summary>Tips for collapsed sections</summary>
+<summary>This is a collapsed sections</summary>
 
 ### You can add a header
 You can add text within a collapsed section.   
@@ -381,6 +381,8 @@ Copyright Symbol: `©`: ©
 Registered Trademark Symbol: `®`: ®  
 Trademark Symbol: `™`: ™ 
 
+---
+
 # strikethrough
 
 <s>This is a strikethough.</s>
@@ -389,29 +391,39 @@ Trademark Symbol: `™`: ™
 
 `<strike>This is a strikethough.</strike>`
 
-# Task List
+---
 
-- [x] #739
-- [ ] Add delight to the experience when all tasks are complete :tada:
+# Task List
 
 ` - [x] Marked`   
 
-` - [ ] Unmarked`     
+` - [ ] Unmarked`   
 
+- [x] #739
+- [ ] Add delight to the experience when all tasks are complete :tada:  
+
+---
+
+# Mermaid
+
+````
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+````
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 # Footnote
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
-    
 ```
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -426,4 +438,18 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.   
     
-```   
+```
+
+---
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
