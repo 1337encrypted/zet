@@ -3,46 +3,42 @@
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-| Element | Markdown Syntax |
-| ------- | --------------- |
-|[ Headings ](#headings)|	`# H1` <br/> `## H2` <br/> `### H3`|
-|[ Bold ](#bold)|	`**bold text**`|
-|[ Italic ](#italic)|	`*italicized text*`|
-|[ Bold Italic ](#bold-italic)| `***Bold Italic***` |
-|[ Blockquote ](#blockquotes)|	`> blockquote`|
-|[ Alerts ](#Alerts) | `> [!NOTE]` <br/> `> [!TIP]` <br/> `> [!IMPORTANT]` <br/> `> [!WARNING]` <br/> `> [!CAUTION]`|
-|[ Ordered List ](#ordered-list)|	`1. First item` <br/> `2. Second item` <br/> `3. Third item`|
-|[ Unordered List ](#unordered-list)|	`- First item` <br/> `- Second item` <br/> `- Third item`|
-|[ Code ](#code)|	\`code\`|
-|[ Horizontal Rule ](#horizontal-rule)|	`---` |
-|[ Link ](#link)|	`[title](https://www.example.com)`|
-|[ Image ](#images)|	`![alt text](image.jpg)`|
+| Element                             | Markdown Syntax  |
+|-------------------------------------|--------------------------------------------------------------------------------------------|
+| [Headings](#headings)               | `# H1` <br/> `## H2` <br/> `### H3` |
+| [Bold](#bold)                       | `**bold text**` |
+| [Italic](#italic)                   | `*italicized text*` |
+| [Bold Italic](#bold-italic)         | `***Bold Italic***`  |
+| [Blockquote](#blockquotes)          | `> blockquote` |
+| [Alerts](#alerts)                   | `> [!NOTE]` <br/> `> [!TIP]` <br/> `> [!IMPORTANT]` <br/> `> [!WARNING]` <br/> `> [!CAUTION]` |
+| [Ordered List](#ordered-list)       | `1. First item` <br/> `2. Second item` <br/> `3. Third item` |
+| [Unordered List](#unordered-list)   | `- First item` <br/> `- Second item` <br/> `- Third item` |
+| [Code](#code)                       | \`code\` |
+| [Horizontal Rule](#horizontal-rule) | `---` |
+| [Link](#link)                       | `[title](https://www.example.com)` |
+| [Image](#images)                    | `![alt text](image.jpg)` |
 
 # Extended Syntax
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
-<table>
-  <tr><th>Element</th> <th>Markdown Syntax</th></tr>
-  <tr><td><a href="#tables">Table</a></td> 
-    <td>| Syntax | Description |<br/>| ----------- | ----------- |<br/>| Header | Title |<br/>| Paragraph | Text |</td></tr>
 
-  <tr><td><a href="#Latex-fonts">Latex fonts</a></td> 
-    <td> $Math$ </td></tr>
-
-  <tr><td><a href="#fenced-code-block">Fenced Code Block</a></td> 
-    <td> ```<br/>{<br/>"firstName": "John",<br/>"lastName": "Smith",<br/>"age": 25<br/>}<br/>```</td></tr> 
-  <tr><td><a href="#footnote">Footnote</a></td> <td>Here's a sentence with a footnote. [^1]<br/><br/>[^1]: This is the footnote.</td></tr> 
-  <tr><td><a href="#heading-id">Heading ID</a></td> <td>### My Great Heading {#custom-id}</td></tr> 
-  <tr><td><a href="#definition-list">Definition List</a></td> <td>term<br/>: definition</td></tr> 
-  <tr><td><a href="#strikethrough">Strikethrough</a></td> <td>&lt;s&gt;The world is flat.&lt;/s&gt;</td></tr> 
-  <tr><td><a href="#task-list">Task List</a></td> <td>- [x] Write the press release<br/>- [ ] Update the website<br/>- [ ] Contact the media</td></tr> 
-  <tr><td><a href="#emoji">Emoji</a></td> <td>That is so funny! :joy:</td></tr> 
-</table>
+| Element                                   | Markdown Syntax |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| [Table](#tables)                          | \| Syntax \| Description \|<br>\| ----------- \| ----------- \|<br>\| Header \| Title \|<br>\| Paragraph \| Text \|  |
+| [Collapsed section](#Collapsed-section)   | <details><summary>collapsed sections</summary> You can add text within a collapsed section.</details> |
+| [Latex fonts](#latex-fonts)               | `$Math$` |
+| [Fenced Code Block](#fenced-code-block)   | ```<br>{<br>"firstName": "John",<br>"lastName": "Smith",<br>"age": 25<br>}<br>```|
+| [Footnote](#footnote)                     | `Here's a sentence with a footnote. [^1]`<br><br>`[^1]: This is the footnote.` |
+| [Heading ID](#heading-id)                 | `### My Great Heading {#custom-id}` |
+| [Definition List](#definition-list)       | `term`<br>`: definition` |
+| [Strikethrough](#strikethrough)           | `<s>The world is flat.</s>` |
+| [Task List](#task-list)                   | `- [x] Write the press release`<br>`- [ ] Update the website`<br>`- [ ] Contact the media` |
+| [Emoji](#emoji)                           | `That is so funny! :joy:` |
 
 ---
 
-# Headings 
-
+<details> <summary><h1>Headings</h1></summary>
+  
 # Heading 1   
 `# Heading 1`
 
@@ -61,21 +57,26 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ###### Heading 6
 `###### Heading 6`
 
+</details>
+
 ---
 
-# Bold
-
+<details> <summary><h1>Bold</h1></summary>
+  
 **bold text**   
 `**bold text**`   
 `__bold text__`    
 
+</details>
+
 ---
 
-# Italic
+<details> <summary><h1>Italic</h1></summary>
 
 *Italic text*   
 `*Italic text*`   
 `_Italic text_`
+</details>
 
 ---
 
@@ -194,15 +195,14 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ---
 
 # Code
-
-
-```
-Some code here
+````
+```go
+fmt.Println("Hello World!")
 ```    
-\`\`\`
-Some code here
-\`\`\`   
-
+```` 
+```go
+fmt.Println("Hello World!")
+```  
 ---
 
 # horizontal rule
@@ -243,6 +243,19 @@ Some code here
 |a|b|c|
 
 ---
+# Collapsed section
+
+<details>
+  
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+You can add text within a collapsed section.   
+You can add an image or a code block, too.  
+```ruby
+   puts "Hello World"
+```
+</details>
 
 # Latex fonts
 
