@@ -5,17 +5,18 @@ These are the elements outlined in John Gruber’s original design document. All
 
 | Element | Markdown Syntax |
 | ------- | --------------- |
-|[Headings](#headings)|	`# H1` <br/> `## H2` <br/> `### H3`|
-|[Bold](#bold)|	`**bold text**`|
-|[Italic](#italic)|	`*italicized text*`|
-|[Bold Italic](#bold-italic)| `***Bold Italic***` |
-|[Blockquote](#blockquotes)|	`> blockquote`|
-|[Ordered List](#ordered-list)|	`1. First item` <br/> `2. Second item` <br/> `3. Third item`|
-|[Unordered List](#unordered-list)|	`- First item` <br/> `- Second item` <br/> `- Third item`|
-|[Code](#code)|	\`code\`|
-|[Horizontal Rule](#horizontal-rule)|	`---` |
-|[Link](#link)|	`[title](https://www.example.com)`|
-|[Image](#images)|	`![alt text](image.jpg)`|
+|[ Headings ](#headings)|	`# H1` <br/> `## H2` <br/> `### H3`|
+|[ Bold ](#bold)|	`**bold text**`|
+|[ Italic ](#italic)|	`*italicized text*`|
+|[ Bold Italic ](#bold-italic)| `***Bold Italic***` |
+|[ Blockquote ](#blockquotes)|	`> blockquote`|
+|[ Alerts ](#Alerts) | `> [!NOTE]` <br/> `> [!TIP]` <br/> `> [!IMPORTANT]` <br/> `> [!WARNING]` <br/> `> [!CAUTION]`|
+|[ Ordered List ](#ordered-list)|	`1. First item` <br/> `2. Second item` <br/> `3. Third item`|
+|[ Unordered List ](#unordered-list)|	`- First item` <br/> `- Second item` <br/> `- Third item`|
+|[ Code ](#code)|	\`code\`|
+|[ Horizontal Rule ](#horizontal-rule)|	`---` |
+|[ Link ](#link)|	`[title](https://www.example.com)`|
+|[ Image ](#images)|	`![alt text](image.jpg)`|
 
 # Extended Syntax
 
@@ -113,6 +114,44 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ```
 
 ---
+
+# Alerts
+
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+```
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+```
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+```
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+```
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+```
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+```
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+```
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+---  
 
 # Ordered list
 
