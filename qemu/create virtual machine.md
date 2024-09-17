@@ -42,7 +42,7 @@ To enhance VM performance, consider using the following options:
 - **`-smp 2`**: Sets the number of virtual CPUs (cores). Adjust the number according to the number of cores you want to allocate.
 
   ```bash
-  qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G -smp 2
+  qemu-system-x86_64 -enable-kvm -cdrom <OS_ISO.iso> -boot menu=on -drive file=Image.qcow2 -m 2G -cpu host -smp 2
   ```
 
 ## Graphics Acceleration
@@ -51,9 +51,13 @@ For better graphical performance, you can use the `-vga` option to select a VGA 
 
 - **`qxl`**: Provides 2D acceleration but requires additional kernel modules (`qxl` and `bochs_drm`).
 
-  ```bash
-  qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G -vga qxl
-  ```
+```bash
+sudo modprobe qxl bochs_drm
+```
+
+```bash
+qemu-system-x86_64 -enable-kvm -cdrom <OS_ISO.iso> -boot menu=on -drive file=Image.qcow2 -m 2G -cpu host -smp 2 -vga qxl
+```
 
 ## Additional Tips
 
