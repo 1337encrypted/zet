@@ -1,27 +1,64 @@
-### To create a virtual image use:
+# QEMU Virtual Machine Guide
 
-`qemu-img create -f qcow2 Image.img 10G`
+## Creating a Virtual Disk Image
 
-(create is to create an image, -f qcow2 sets the format to qcow2, Image.img is our final file and 10G is it's size)
+To create a virtual disk image, use the following command:
 
-### Launching the VM:
+```bash
+qemu-img create -f qcow2 Image.img 10G
+```
 
-`qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img -m 2G`
+- **`qemu-img create`**: Command to create a new disk image.
+- **`-f qcow2`**: Specifies the format of the disk image. `qcow2` is a flexible and efficient format.
+- **`Image.img`**: The name of the image file to be created.
+- **`10G`**: Size of the disk image (10 gigabytes).
 
-- `-enable-kvm` enables KVM, `-cdrom` selects an iso to load as a cd, `-boot menu=on` enables a boot menu, `-drive file=` selects a file for the drive, `-m` sets the amount of dedicated RAM   
-- Remember! `Ctrl + Alt + G` to exit capture, `Ctrl + Alt + F` to fullscreen!    
+## Launching the Virtual Machine
 
-That doesn't run so good, what can we do to improve it?    
+To start the VM, use this command:
 
-### Basic performance options
+```bash
+qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G
+```
 
- `-cpu host` (sets the CPU to the hosts' CPU)    
- `-smp 2` (sets the numbers of cores)
+- **`-enable-kvm`**: Enables KVM (Kernel-based Virtual Machine) for hardware acceleration, which improves performance.
+- **`-cdrom OS_ISO.iso`**: Specifies the ISO file to use as a virtual CD-ROM drive. Replace `OS_ISO.iso` with your operating system ISO file.
+- **`-boot menu=on`**: Enables the boot menu to select boot options.
+- **`-drive file=Image.img,format=qcow2`**: Specifies the virtual disk image file and its format. This ensures the correct format is used.
+- **`-m 2G`**: Allocates 2 gigabytes of RAM to the virtual machine.
 
-Basic Graphics Acceleration   
+**Note**: You can use `Ctrl + Alt + G` to release the mouse capture and `Ctrl + Alt + F` to toggle fullscreen mode.
 
-the `-vga` option can be used to specify one of various vga card emulators:    
+## Improving Performance
 
-"qxl" offers 2D acceleration but requires kernel modules "qxl" and "bochs_drm" to be enabled:    
+To enhance VM performance, consider using the following options:
 
-`-vga qxl`
+- **`-cpu host`**: Configures the virtual CPU to match the host's CPU, which can improve performance and compatibility.
+
+  ```bash
+  qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G -cpu host
+  ```
+
+- **`-smp 2`**: Sets the number of virtual CPUs (cores). Adjust the number according to the number of cores you want to allocate.
+
+  ```bash
+  qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G -smp 2
+  ```
+
+## Graphics Acceleration
+
+For better graphical performance, you can use the `-vga` option to select a VGA card emulator. The available options include:
+
+- **`qxl`**: Provides 2D acceleration but requires additional kernel modules (`qxl` and `bochs_drm`).
+
+  ```bash
+  qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G -vga qxl
+  ```
+
+## Additional Tips
+
+- **`-netdev user,id=net0`** and **`-device virtio-net,netdev=net0`**: Add network support with user-mode networking.
+- **`-snapshot`**: Run the VM in snapshot mode, where changes are not written to the disk image, allowing safe experimentation.
+
+With these instructions, you should be able to set up and optimize your QEMU virtual machine effectively.
+```
