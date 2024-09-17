@@ -5,12 +5,12 @@
 To create a virtual disk image, use the following command:
 
 ```bash
-qemu-img create -f qcow2 Image.img 10G
+qemu-img create -f qcow2 <Image.qcow2> 10G
 ```
 
 - **`qemu-img create`**: Command to create a new disk image.
 - **`-f qcow2`**: Specifies the format of the disk image. `qcow2` is a flexible and efficient format.
-- **`Image.img`**: The name of the image file to be created.
+- **`Image.qcow2`**: The name of the image file to be created. (Ex arch.qcow2)
 - **`10G`**: Size of the disk image (10 gigabytes).
 
 ## Launching the Virtual Machine
@@ -18,7 +18,7 @@ qemu-img create -f qcow2 Image.img 10G
 To start the VM, use this command:
 
 ```bash
-qemu-system-x86_64 -enable-kvm -cdrom OS_ISO.iso -boot menu=on -drive file=Image.img,format=qcow2 -m 2G
+qemu-system-x86_64 -enable-kvm -cdrom <OS_ISO.iso> -boot menu=on -drive file=<Image.qcow2> -m 2G
 ```
 
 - **`-enable-kvm`**: Enables KVM (Kernel-based Virtual Machine) for hardware acceleration, which improves performance.
