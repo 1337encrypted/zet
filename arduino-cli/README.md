@@ -14,7 +14,7 @@ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.
 
 ## Move the executable to `/usr/local/bin` to be accessed systemwide
 ```
-sudo mv bin/arduino-cli /usr/local/bin/arduino-cli
+sudo mv bin/arduino-cli /usr/local/bin/
 ```
 
 ## Verify the installation
