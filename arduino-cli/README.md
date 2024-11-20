@@ -1,3 +1,9 @@
+# Arduino CLI Script installation
+
+```
+curl -sSL https://raw.githubusercontent.com/1337encrypted/zet/refs/heads/main/arduino-cli/install.sh | bash
+```
+
 # Arduino CLI Manual Installation
 
 ## Download the Arduino CLI binary
