@@ -6,41 +6,46 @@ curl -sSL https://raw.githubusercontent.com/1337encrypted/zet/refs/heads/main/ar
 
 # Arduino CLI Manual Installation
 
-## Download the Arduino CLI binary
+### Download the Arduino CLI binary
 
 ```
 curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 ```
 
-## Move the executable to `/usr/local/bin` to be accessed systemwide
+### Move the executable to `/usr/local/bin` to be accessed systemwide
 ```
 sudo mv bin/arduino-cli /usr/local/bin/
 ```
 
-## Verify the installation
+### Verify the installation
 ```
 arduino-cli version
 ```
 
-## Install the esp32 core
+### Install the esp32 core
 ```
 arduino-cli core install esp32:esp32
 ```
 
-## Update the Arduino CLI core index
+### Update the Arduino CLI core index
 ```
 arduino-cli core update-index
 ```
 
 ## Install Python and pyserial if not already installed
-## Check if Python is installed
+### Check if Python is installed
 ```
 command -v python3
 ```
 
-## Install pyserial using pip
+### Install pyserial on Ubuntu
 ```
-python3 -m pip install pyserial --break-system-packages
+sudo apt install python3-serial
+```
+
+### Install pyserial on Arch
+```
+sudo pacman -S python-serial
 ```
 
 ## Add the user to the appropriate group (for serial access)
