@@ -1,0 +1,19 @@
+# Flash the bin file
+
+## Activate python virtual environment before flashing the bin file
+```
+source venv/bin/activate
+```
+
+## Flash the binary to the board
+```
+python -m esptool --port "<PORT>" --chip auto --baud 921600 --before default_reset --after hard_reset write_flash -u --flash_mode keep --flash_freq 40m --flash_size detect 0x0 workspace/apps/01_blink/build/zephyr/zephyr.bin
+```
+
+## Monitor the board
+```
+python -m serial.tools.miniterm "<PORT>" 115200
+```
+
+- To exit, press ctrl+] (or cmd+] for macOS
+
